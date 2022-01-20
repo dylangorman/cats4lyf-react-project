@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cats4lyf-react-project/static/css/main.bfd9903b.css",
+    "main.js": "/cats4lyf-react-project/static/js/main.119ddfc8.js",
+    "index.html": "/cats4lyf-react-project/index.html",
+    "main.bfd9903b.css.map": "/cats4lyf-react-project/static/css/main.bfd9903b.css.map",
+    "main.119ddfc8.js.map": "/cats4lyf-react-project/static/js/main.119ddfc8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfd9903b.css",
+    "static/js/main.119ddfc8.js"
+  ]
+}
