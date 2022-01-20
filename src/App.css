@@ -1,0 +1,117 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  background-color: hsla(229, 5%, 44%, 1);
+  background: linear-gradient(
+    360deg,
+    hsla(229, 5%, 44%, 1) 0%,
+    hsla(32, 14%, 59%, 1) 0%,
+    hsla(7, 92%, 85%, 1) 0%,
+    hsla(196, 27%, 27%, 1) 100%,
+    hsla(25, 28%, 16%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    360deg,
+    hsla(229, 5%, 44%, 1) 0%,
+    hsla(32, 14%, 59%, 1) 0%,
+    hsla(7, 92%, 85%, 1) 0%,
+    hsla(196, 27%, 27%, 1) 100%,
+    hsla(25, 28%, 16%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    360deg,
+    hsla(229, 5%, 44%, 1) 0%,
+    hsla(32, 14%, 59%, 1) 0%,
+    hsla(7, 92%, 85%, 1) 0%,
+    hsla(196, 27%, 27%, 1) 100%,
+    hsla(25, 28%, 16%, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6b6d76", endColorstr="#a69888", GradientType=1 );
+}
+.page-wrapper {
+  margin: 5px;
+}
+header {
+  background-color: #334e58;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  border-radius: 4px;
+}
+header h1 {
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 30px;
+}
+.basket {
+  position: absolute;
+  top: 35px;
+  right: 40px;
+}
+.basket:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+img {
+  width: 300px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 33.333333%;
+  justify-content: space-around;
+  padding: 10px;
+}
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18pt;
+}
+.modal-wrapper {
+  height: 700px;
+  width: 500px;
+}
+
+/* Cat animation */
+#catwalk {
+  background: url("https://res.cloudinary.com/pastelitos/image/upload/v1610526571/eva/gatito_pushui.svg");
+  height: 297px;
+  width: 507.5px;
+  -webkit-animation: sprite-animation 1.2s steps(16, end) infinite;
+  -moz-animation: sprite-animation 1.2s steps(16, end) infinite;
+  -ms-animation: sprite-animation 1.2s steps(16, end) infinite;
+  animation: sprite-animation 1.2s steps(16, end) infinite;
+}
+@-webkit-keyframes sprite-animation {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -8120px 0;
+  }
+}
+@-ms-keyframes sprite-animation {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -8120px 0;
+  }
+}
+@-moz-keyframes sprite-animation {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -8120px 0;
+  }
+}
+@keyframes sprite-animation {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -8120px 0;
+  }
+}
