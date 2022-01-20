@@ -1,5 +1,8 @@
 {
+<<<<<<< HEAD
   "homepage": "https://dylangorman.github.io/cats4lyf-react-project",
+=======
+>>>>>>> 168d343c9634448c90b7b0fb8f46e44a9f499692
   "name": "test",
   "version": "0.1.0",
   "private": true,
@@ -8,7 +11,10 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "faker": "^5.5.3",
+<<<<<<< HEAD
     "gh-pages": "^3.2.3",
+=======
+>>>>>>> 168d343c9634448c90b7b0fb8f46e44a9f499692
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-responsive-modal": "^6.2.0",
@@ -19,9 +25,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+<<<<<<< HEAD
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "react-script eject"
+=======
+    "eject": "react-scripts eject"
+>>>>>>> 168d343c9634448c90b7b0fb8f46e44a9f499692
   },
   "eslintConfig": {
     "extends": [
